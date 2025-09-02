@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: black;
+    height: 80vh;
+    margin: 7px;
+    border-radius: 60px;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+div#img1{
+    flex-basis: 65vw;
+    margin-left: 20px;
+
+    background: url(imgs/img1.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    transition: flex-basis 0.7s ease-in;
+}
+div#img2{
+    flex-basis: 40px;
+    background: url(imgs/img2.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    transition: flex-basis 0.7s ease-in;
+}
+div#img3{
+    flex-basis: 40px;
+    background: url(imgs/img3.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    transition: flex-basis 0.7s ease-in;
+}
+div#img4{
+    flex-basis: 40px;
+    background: url(imgs/img4.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+    margin-right: 20px;
+
+    transition: flex-basis 0.7s ease-in;
+}
+
+h3{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+
+    transition: opacity 0.5s ease-in;
+}
+
+div #h11{
+    opacity: 1;
+}
+
+/*FALTA: colocar os textos nas imagens e retirar duas imagens quando a tela for pequena*/
