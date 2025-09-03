@@ -36,18 +36,41 @@ div#div1{
     transform: translate(-50%, -50%);
 }
 
-    .num{
-        width: 12px;
-        height: 12px;
-        padding: 5px;
+.num{
+    width: 12px;
+    height: 12px;
+    padding: 5px;
 
-        border-radius: 100%;
-        border: 2px solid #DCDCDE;
+    border-radius: 100%;
+    border: 2px solid #DCDCDE;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#num2, #num3, #num4{
+    transition: border 0.5s;
+} 
+
+.load{
+    height: 5px;
+    width: 100%;
+    background-color: #DCDCDE;
+
+}
+
+.load2{
+    height: 5px;
+    width: 0%;
+    background-color: #DCDCDE;
+    transition: width 0.2s ease-in-out;
+}
+
+.n1{
+    border: 2px solid #2788D6;
+}
 
 #div12{
     padding: 0px;
@@ -62,5 +85,13 @@ div#div1{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+
+
+    cursor: pointer;
+}
+
+#btn1{
+    background-color: #DCDCDC;
+    cursor: no-drop;
 }
 
