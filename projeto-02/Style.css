@@ -41,8 +41,8 @@ div#div1{
     height: 12px;
     padding: 5px;
 
-    border-radius: 100%;
-    border: 2px solid #DCDCDE;
+    border-radius: 50%;
+    border: 3px solid #DCDCDE;
 
 
     display: flex;
@@ -69,7 +69,7 @@ div#div1{
 }
 
 .n1{
-    border: 2px solid #2788D6;
+    border: 3px solid #2788D6;
 }
 
 #div12{
@@ -88,6 +88,10 @@ div#div1{
 
 
     cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
 }
 
 #btn1{

@@ -20,15 +20,15 @@ function clicou1(){
     if (next>0){
         if (next==1){
             load1.style.width = '0%'
-            num2.style.border ='2px solid #DCDCDE'
+            num2.style.border ='3px solid #DCDCDE'
             btn1.style.backgroundColor ='#DCDCDC'
             btn1.style.cursor = 'no-drop'
         } else if (next==2){
             load2.style.width = '0%'
-            num3.style.border ='2px solid #DCDCDE'
+            num3.style.border ='3px solid #DCDCDE'
         } else if (next==3){
             load3.style.width = '0%'
-            num4.style.border ='2px solid #DCDCDE'
+            num4.style.border ='3px solid #DCDCDE'
             btn2.style.backgroundColor ='#2788D6'
             btn2.style.cursor = 'pointer'
         }
@@ -43,17 +43,17 @@ function clicou2(){
         if (next==0){
             load1.style.backgroundColor = '#2788D6'
             load1.style.width = '100%'
-            num2.style.border ='2px solid #2788D6'
+            num2.style.border ='3px solid #2788D6'
             btn1.style.backgroundColor ='#2788D6'
             btn1.style.cursor = 'pointer'
         } else if (next==1){
             load2.style.backgroundColor = '#2788D6'
             load2.style.width = '100%'
-            num3.style.border ='2px solid #2788D6'
+            num3.style.border ='3px solid #2788D6'
         } else if (next==2){
             load3.style.backgroundColor = '#2788D6'
             load3.style.width = '100%'
-            num4.style.border ='2px solid #2788D6'
+            num4.style.border ='3px solid #2788D6'
             btn2.style.backgroundColor ='#DCDCDC'
             btn2.style.cursor = 'no-drop'
         }
