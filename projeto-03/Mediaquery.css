@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    article{
+        width: 60vw;
+        
+    }
+    img{
+        max-width: 60vw;
+    }
+}
