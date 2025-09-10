@@ -17,18 +17,18 @@ body{
 
 #div1{
     background-color: #F9F9F9;
-    transition: rotate 0.8s ease-out;
+    transition: rotate 0.5s ease-out;
     transform-origin: 0 0;
 }
 
 #div2{
-    transition: rotate 0.8s ease-out;
+    transition: rotate 0.5s ease-out;
 }
 
 nav div{
     position: relative;
-    top: -50px;
-    left: -50px;
+    top: -60px;
+    left: -60px;
     background-color: #FF7D6D;
     width: 120px;
     height: 120px;
@@ -36,18 +36,20 @@ nav div{
 }
 
 nav div span#btn1{
-    position: relative;
-    top: 65px;
-    left: 70px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
     color: white;
 
     cursor: pointer;
 }
 
 nav div span#btn2{
-    position: relative;
-    top: 65px;
-    left: -15px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-25%, -75%);
     color: white;
 
     cursor: pointer;
@@ -58,7 +60,8 @@ nav div span#btn2{
 }
 
 .girar2{
-    rotate: -90deg;
+    rotate: -78deg;
+    transform-origin: center center;
 }
 
 article{
