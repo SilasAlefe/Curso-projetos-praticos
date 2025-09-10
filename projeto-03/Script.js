@@ -6,12 +6,14 @@ botao1.addEventListener('click', () => {
     pag.classList.add('girar1')
     pagbtn.classList.add('girar2')
     pagbtn.classList.add('girar2')
-    document.body.classList.add('scroll')
+    setTimeout( () => {document.body.classList.add('scroll')  
+    }, 550)
 })
 
 botao2.addEventListener('click', () => {
     pag.classList.remove('girar1')
     pagbtn.classList.remove('girar2')
     pagbtn.classList.remove('girar2')
-    document.body.classList.remove('scroll')
+    setTimeout( () => {document.body.classList.remove('scroll')  
+    }, 550)
 })

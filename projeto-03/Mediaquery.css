@@ -8,4 +8,32 @@
     img{
         max-width: 60vw;
     }
-}
+
+    .btnmenu{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        top: 80%;
+        margin-left: 10px;
+
+        color: white;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    #btnmenu1{
+        width: 75px;
+    }
+
+    #btnmenu2{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 80px;
+    }
+    #btnmenu3{
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 100px;
+    }
