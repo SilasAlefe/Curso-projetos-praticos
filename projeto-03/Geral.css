@@ -22,7 +22,7 @@ body{
     color: white;
     font-size: 0.9em;
     font-weight: 600;
-    transition: margin-left 0.5s ease-out;
+    transition: margin-left 0.5s linear;
 }
 
 #btnmenu1{
@@ -47,12 +47,12 @@ body{
 
 #div1{
     background-color: #F9F9F9;
-    transition: rotate 0.5s ease-out;
+    transition: rotate 0.5s linear;
     transform-origin: 0 0;
 }
 
 #div2{
-    transition: rotate 0.5s ease-out;
+    transition: rotate 0.5s linear;
 }
 
 nav div{

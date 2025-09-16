@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #685BE6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+
+#container input{
+    border: none;
+    outline: transparent;
+}
+
+#btn-search{
+    font-size: 2em;
+    font-variation-settings: 'wght' 800;
+
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+}
+
+.btn-search-activated{
+    width: 0px;
+}
+
+
+
