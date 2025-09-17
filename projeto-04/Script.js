@@ -6,6 +6,7 @@ let clique = 1
 btnsearch.addEventListener('click', () => {
     if (clique==1){
         searchtxt.classList.add('btn-search-activated')
+        searchtxt.focus()
         clique += 1 
     } else if(clique){
         searchtxt.classList.remove('btn-search-activated')
