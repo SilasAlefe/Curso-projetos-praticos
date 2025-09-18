@@ -1,12 +1,16 @@
-const blur = document.querySelector('#blur')
+const blour = document.getElementById('blur')
 const counting = document.getElementById('counting')
-
-
-for (let a = 1; a<=100; a++){
+let a = 1
+let b = 30
     function contagem() {
-        counting.innerHTML = (`${a}`)
+        counting.innerHTML = (`${a}%`)
+        blour.style.backdropFilter = `blur(${b}px)`
+        b-=0.3
+        a+=1
+
+        if(a>100){
+            clearInterval(c)
+        }
     }
-}
 
-
-setTimeout(contagem(), 1s)
+    const c = setInterval(contagem, 40)
