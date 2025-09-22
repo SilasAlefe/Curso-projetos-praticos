@@ -13,4 +13,4 @@ let b = 30
         }
     }
 
-    const c = setInterval(contagem, 40)
+    const c = setInterval(contagem, 25)
