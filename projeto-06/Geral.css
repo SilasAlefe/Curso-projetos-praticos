@@ -33,10 +33,16 @@ main .content{
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
 
-    transform: translateX(200%);
     transition: transform 0.4s ease;
 }
 
-.content:focus{
-    transform: translateX(0);
+.content:nth-of-type(even){
+    transform: translate(400%);
+}
+.content:nth-of-type(odd){
+    transform: translate(-400%);
+}
+
+.content.mostrar{
+    transform: translate(0);
 }
